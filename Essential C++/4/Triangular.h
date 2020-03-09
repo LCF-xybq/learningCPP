@@ -1,3 +1,6 @@
+#include <vector>
+using namespace std;
+
 class Triangular {
 public:
   // const member function
@@ -13,4 +16,5 @@ private:
   int _beg_pos;
   mutable int _next;
   static vector<int> _elems;
+  static int _initial_size;
 };
